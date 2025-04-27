@@ -1,0 +1,181 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#content{
+  position:initial;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  font-size: 120%;
+}
+
+.main-color {
+  color:#1f80e0;
+}
+
+.header {
+  padding-left: 2%;
+  color:#fff;
+  opacity: 0.9;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+/*ของหน้า login */
+form, .content {
+  width: 18%;
+  margin: 0% auto 0 37%;
+  padding: 2.5rem;
+  border: 1px solid #fff;
+  background: #0c111b;
+  color: white;
+  border-radius: 2.2rem;
+  opacity: 0.9;
+}
+
+/*ของหน้า regis*/ 
+section {
+ 
+  padding: 2.4rem;
+  border: 1px solid #fff;
+  background: #0c111b;
+  color: white;
+  border-radius: 2.2rem;
+  opacity: 0.9;
+  margin:0 auto;
+  width:800px;
+}
+
+#headerform{
+  font-size: 2.7rem;
+  color: white;
+  text-align: center;
+}
+
+
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+
+.input-group input {
+  height: 30px;
+  width: 90%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+p.lines {
+  width: 96%;
+  border: 1px solid #1f80e0;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+#signin{
+  color: rgb(138, 163, 245);
+}
+
+#space{
+  padding-top: 0.1rem;
+}
+.error {
+  width: 96%; 
+  margin: 0 ; 
+  padding: 5px; 
+  margin-top: 10px;
+  border: 1px solid #a94442; 
+  color: #c03c3a; 
+  background: #f2dede; 
+  border-radius: 0.4rem;
+  text-align: center;
+}
+.btn {
+  width: 96%;
+  padding: 0.9rem;
+  margin-top: 1.4rem;
+  margin-bottom: 0.2rem;
+  font-size: 1.2rem;
+  color: white;
+  background: #1f80e0;
+  border: none;
+  border-radius: 5px;
+  
+  &:hover{
+     cursor: pointer;
+ }
+
+     
+}
+
+
+
+@media only screen and (max-width: 850px) {
+
+  form, .content {
+    width: 50%;
+    margin: 12% auto 0 20%;
+    padding: 25px;
+    border: 1px solid #B0C4DE;
+    background: #0c111b;
+    color: white;
+    border-radius: 1.5rem;
+    opacity: 0.9;
+  }
+
+  section {
+    width: 52%;
+    margin: 5% auto 0 20%;
+    padding: 25px;
+    border: 1px solid #fff;
+    background: #0c111b;
+    color: white;
+    border-radius: 2.2rem;
+    opacity: 0.9;
+  }
+
+
+  .btn {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    color: white;
+    background: #1f80e0;
+    border: none;
+    border-radius: 6px;
+  }
+
+  .error {
+    width: 96%; 
+    margin: 0 ; 
+    padding: 5px; 
+    margin-top: 10px;
+    border: 1px solid #a94442; 
+    color: #c03c3a; 
+    background: #f2dede; 
+    border-radius: 7px; 
+    text-align: center;
+  }
+
+}
+
