@@ -1,1 +1,0 @@
-Movie streaming website developed with PHP for server-side logic, MySQL for database management, and jQuery for frontend interactivity. It includes a user authentication system that requires users to register and log in before streaming movies.
