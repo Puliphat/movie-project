@@ -1,3 +1,5 @@
+Movie streaming website developed with PHP for server-side logic, MySQL for database management, and jQuery for frontend interactivity. It includes a user authentication system that requires users to register and log in before streaming movies.
+
 ส่วนที่1 โครงสร้างไฟล์ในโฟลเดอร์โปรเจ็กต์
 โฟลเดอร์ project คือโฟลเดอร์เก็บไฟล์โปรเจ็กต์ทั้งหมด ภายในประกอบด้วย
 โฟลเดอร์ bootstrap-css ใช้เก็บไฟล์ประะเภท css ของ bootstrap ทั้งหมด
